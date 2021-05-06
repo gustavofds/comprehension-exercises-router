@@ -11,7 +11,7 @@ class App extends Component {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/users">Users</Link>
-        <Route path="/" component={ Home }></Route>
+        <Route exact path="/" component={ Home }></Route>
         <Route path="/about" component={ About }></Route>
       </BrowserRouter>
     );
